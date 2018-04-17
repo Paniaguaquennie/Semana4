@@ -1,0 +1,80 @@
+body {
+	background-color: lemonchiffon;
+}
+
+#horizontal-list li {
+		display: inline;
+	}
+
+#horizontal-list {
+	list-style: none;
+	margin-top: 25px;
+	padding: 15px;
+	background-color: khaki;
+	border-radius: 5px;
+	margin-left: 5%;
+	margin-right: 3%;
+	}
+
+.button1, .button2, .button3, .button4  {
+    background-color: gold;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+a:hover {
+    background-color: goldenrod;
+}
+
+header img {
+	margin-top: -140px;
+}
+
+header {
+	border: 1px solid #000;
+	background:url(../img/elizabeth.jpg) no-repeat;
+	background-size: cover;
+	height: 300px;
+	border: 0px solid;
+	border-radius: 5px;
+	margin-left: 5%;
+	margin-right: 3%;
+}
+
+#p1 {
+	float: left;
+    width: 30%;
+    margin-left: 5%;
+    padding: 50px;
+    
+    height: 300px;
+    margin-top: 1%;
+    background-color: white;
+    border-radius: 5px;
+}
+
+#p2 {
+	float: right;
+    width: 30%;
+    margin-right: 3%;
+    padding: 50px;
+    
+    height: 300px;
+    margin-top: 1%;
+    background-color: white;
+    border-radius: 5px;
+}
+
+footer {
+	border-radius: 5px;
+	margin-top: 465px;
+	margin-left: 5%;
+	background-color: khaki;
+	padding: 1px 40px;
+	margin-right: 3%;
+}
